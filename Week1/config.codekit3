@@ -16,18 +16,74 @@
 		"oAP": "/.gitattributes",
 		"oF": 0
 		},
-	"/includes/footer.php": {
+	"/arrays.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/includes/footer.php",
+		"oAP": "/arrays.php",
 		"oF": 0
 		},
-	"/includes/header.php": {
+	"/break-continue.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/includes/header.php",
+		"oAP": "/break-continue.php",
+		"oF": 0
+		},
+	"/exercise.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/exercise.php",
+		"oF": 0
+		},
+	"/forof.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/forof.php",
+		"oF": 0
+		},
+	"/function-params.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/function-params.php",
+		"oF": 0
+		},
+	"/function-values.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/function-values.php",
+		"oF": 0
+		},
+	"/functions.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/functions.php",
+		"oF": 0
+		},
+	"/ifelse.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/ifelse.php",
+		"oF": 0
+		},
+	"/../includes/footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/../includes/footer.php",
+		"oF": 0
+		},
+	"/../includes/header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/../includes/header.php",
 		"oF": 0
 		},
 	"/includes/side-nav.php": {
@@ -42,6 +98,41 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/index.php",
+		"oF": 0
+		},
+	"/loops.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/loops.php",
+		"oF": 0
+		},
+	"/numbers.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/numbers.php",
+		"oF": 0
+		},
+	"/object-methods.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/object-methods.php",
+		"oF": 0
+		},
+	"/objects.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/objects.php",
+		"oF": 0
+		},
+	"/operators.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/operators.php",
 		"oF": 0
 		},
 	"/README.md": {
@@ -62,123 +153,25 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/Week1/arrays.php": {
+	"/strings.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/Week1/arrays.php",
+		"oAP": "/strings.php",
 		"oF": 0
 		},
-	"/Week1/break-continue.php": {
+	"/switch.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/Week1/break-continue.php",
+		"oAP": "/switch.php",
 		"oF": 0
 		},
-	"/Week1/exercise.php": {
+	"/symbols.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/Week1/exercise.php",
-		"oF": 0
-		},
-	"/Week1/forof.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/Week1/forof.php",
-		"oF": 0
-		},
-	"/Week1/function-params.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/Week1/function-params.php",
-		"oF": 0
-		},
-	"/Week1/function-values.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/Week1/function-values.php",
-		"oF": 0
-		},
-	"/Week1/functions.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/Week1/functions.php",
-		"oF": 0
-		},
-	"/Week1/ifelse.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/Week1/ifelse.php",
-		"oF": 0
-		},
-	"/Week1/includes/side-nav.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/Week1/includes/side-nav.php",
-		"oF": 0
-		},
-	"/Week1/loops.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/Week1/loops.php",
-		"oF": 0
-		},
-	"/Week1/numbers.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/Week1/numbers.php",
-		"oF": 0
-		},
-	"/Week1/object-methods.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/Week1/object-methods.php",
-		"oF": 0
-		},
-	"/Week1/objects.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/Week1/objects.php",
-		"oF": 0
-		},
-	"/Week1/operators.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/Week1/operators.php",
-		"oF": 0
-		},
-	"/Week1/strings.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/Week1/strings.php",
-		"oF": 0
-		},
-	"/Week1/switch.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/Week1/switch.php",
-		"oF": 0
-		},
-	"/Week1/symbols.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/Week1/symbols.php",
+		"oAP": "/symbols.php",
 		"oF": 0
 		}
 	},

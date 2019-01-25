@@ -180,6 +180,20 @@
 		"oA": 0,
 		"oAP": "/Week1/symbols.php",
 		"oF": 0
+		},
+	"/Week2/exercise.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/Week2/exercise.php",
+		"oF": 0
+		},
+	"/Week2/includes/side-nav.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/Week2/includes/side-nav.php",
+		"oF": 0
 		}
 	},
 "hooks": [

@@ -2,6 +2,7 @@
 //
 ?>
 <ul class="navbar-nav">
+	<li class="nav-item"><a class="nav-link" href="exercise.php">Exercise</a></li>
 	<li class="nav-item"><a class="nav-link" href="strings.php">Strings</a></li>
 	<li class="nav-item"><a class="nav-link" href="numbers.php">Numbers</a></li>
 	<li class="nav-item"><a class="nav-link" href="objects.php">Objects</a></li>
@@ -17,5 +18,4 @@
 	<li class="nav-item"><a class="nav-link" href="function-params.php">Function Paramaters</a></li>
 	<li class="nav-item"><a class="nav-link" href="function-values.php">Function Values</a></li>
 	<li class="nav-item"><a class="nav-link" href="object-methods.php">Object-Methods</a></li>
-	<li class="nav-item"><a class="nav-link" href="exercise.php">Exercise</a></li>
 </ul>

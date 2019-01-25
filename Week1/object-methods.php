@@ -9,84 +9,120 @@
 			<p class="lead">View in console</p>
 
 			<script type="text/javascript">
+
 			/********************************
-			* Default Return Value of
-			* a Function
-			*******************************/
+			 * Object with Properties
+			 *******************************/
 
-			var getPostTitle = function() {
+			var post = {
+			  id: 2,
+			  title: 'Hello JavaScript'
+			};
 
-				console.log( 'Title' );
+			console.log( post );
+			console.log( post.title );
+
+			/********************************
+			 * Object with Properties
+			 *******************************/
+
+			var post = {
+			  id: 2,
+			  title: 'Hello JavaScript',
+			  displayTitle: function() {
+			    console.log( post.title );
+			  }
+			};
+
+			post.displayTitle();
+
+			/********************************
+			 * Dot method declaration
+			 *******************************/
+
+			var post = {
+			  id: 2,
+			  title: 'Hello JavaScript'
+			};
+
+			post.displayTitle = function() {
+			    console.log( post.title );
+			};
+
+			post.displayTitle();
+
+
+			/********************************
+			 * Method with parameters and
+			 * return value
+			 *******************************/
+
+			var post = {
+			  id: 2,
+			  title: 'Hello JavaScript',
+			  getTitleMarkup: function( tag ) {
+
+			    var markup = '';
+
+			    markup += '<' + tag + '>';
+			    markup += post.title;
+			    markup += '</' + tag + '>';
+
+			    return markup;
+
+			  }
+			};
+
+			var titleHTML = post.getTitleMarkup( 'h2' );
+
+			console.log( titleHTML );
+
+
+
+			/********************************
+			 * this in a Method
+			 *******************************/
+
+			var post = {
+			  id: 2,
+			  title: 'Hello JavaScript'
+			};
+
+			post.displayTitle = function() {
+			    console.log( this.title );
+			};
+
+			post.displayTitle();
+
+
+
+
+			/********************************
+			 * this in a Method
+			 *******************************/
+
+			var post = {
+			  id: 2,
+			  slug: 'hello-javascript',
+			  title: 'Hello JavaScript',
+			};
+
+			post.getTitleLink = function() {
+
+			  var markup = '';
+
+			  markup += '<a href="' + this.slug + '">';
+			  markup += this.title;
+			  markup += '</a>';
+
+			  return markup;
 
 			};
-			var title = getPostTitle();
+
+			var title = post.getTitleLink();
 
 			console.log( title );
 
-
-			/********************************
-			* Using return in a Function
-			* 1.2.22.2
-			*
-			*******************************/
-
-			var getPostTitle = function() {
-
-				return 'Title';
-
-			};
-
-			var title = getPostTitle();
-
-			console.log( title );
-
-
-
-
-
-			/********************************
-			* Returning values in functions
-			* with a variable
-
-			*******************************/
-
-			var getPostTitle = function() {
-
-				var title = 'Title';
-				return title;
-
-			};
-
-			var title = getPostTitle();
-
-			console.log( title );
-
-
-			/********************************
-			* Multiple functions returning
-			* values
-			*******************************/
-
-			var getPostTitle = function() {
-				return 'Title';
-			};
-
-			var getPostAuthor = function() {
-				return 'Zac';
-			};
-
-			var displayPostHeading = function() {
-
-				var title = getPostTitle(),
-				author = getPostAuthor();
-
-				console.log( title +
-					' by ' +
-					author );
-
-				};
-
-				displayPostHeading();
 
 				</script>
 

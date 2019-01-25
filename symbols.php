@@ -5,7 +5,8 @@
 			<?php require 'includes/nav.php'; ?>
 		</div>
 		<div class="col-9">
-
+			<h1>Symbols</h1>
+			<p class="lead">View in console</p>
 
 			<script type="text/javascript">
 

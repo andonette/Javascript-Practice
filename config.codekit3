@@ -16,6 +16,20 @@
 		"oAP": "/.gitattributes",
 		"oF": 0
 		},
+	"/arrays.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/arrays.php",
+		"oF": 0
+		},
+	"/ifelse.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/ifelse.php",
+		"oF": 0
+		},
 	"/includes/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -58,6 +72,13 @@
 		"oAP": "/objects.php",
 		"oF": 0
 		},
+	"/operators.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/operators.php",
+		"oF": 0
+		},
 	"/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -81,6 +102,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/strings.php",
+		"oF": 0
+		},
+	"/symbols.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/symbols.php",
 		"oF": 0
 		},
 	"/Week1/starter.html": {

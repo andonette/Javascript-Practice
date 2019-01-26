@@ -5,8 +5,7 @@
 			<?php require 'includes/side-nav.php'; ?>
 		</div>
 		<div class="col-9">
-			<h1>Function Values</h1>
-			<p class="lead">View in console</p>
+			<h1>Week 2 Challenges</h1>
 
 
 			<script>

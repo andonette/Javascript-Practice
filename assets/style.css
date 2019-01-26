@@ -1,0 +1,29 @@
+#example1 h1 {
+  font-size: 400%;
+  font-family: sans-serif; }
+
+#example2 h1 {
+  font-size: 200%;
+  font-family: sans-serif; }
+
+#example2 .content {
+  background: #fff;
+  border: 1px #ddd solid;
+  padding: 20px;
+  margin: 20px; }
+
+#example3 h1 {
+  font-size: 200%;
+  font-family: sans-serif; }
+
+#example3 .content {
+  background: #fff;
+  border: 1px #ddd solid;
+  padding: 20px;
+  margin: 20px; }
+
+#example3 #contact {
+  background: #efefef;
+  border: 1px #999 dotted;
+  padding: 20px;
+  margin: 20px; }

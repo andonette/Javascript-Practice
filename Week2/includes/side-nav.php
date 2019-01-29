@@ -11,4 +11,5 @@
 	<li class="nav-item"><a class="nav-link" href="example-6.php">Example 6</a></li>
 	<li class="nav-item"><a class="nav-link" href="exercise-1.php">Exercise 1</a></li>
 	<li class="nav-item"><a class="nav-link" href="exercise-2.php">Exercise 2</a></li>
+	<li class="nav-item"><a class="nav-link" href="exercise-3.php">Exercise 3</a></li>
 </ul>

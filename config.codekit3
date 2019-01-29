@@ -313,6 +313,20 @@
 		"oAP": "/Week2/exercise-1.php",
 		"oF": 0
 		},
+	"/Week2/exercise-2.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/Week2/exercise-2.php",
+		"oF": 0
+		},
+	"/Week2/exercise-3.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/Week2/exercise-3.php",
+		"oF": 0
+		},
 	"/Week2/includes/side-nav.php": {
 		"cB": 0,
 		"ft": 8192,

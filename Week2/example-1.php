@@ -5,7 +5,7 @@
 			<?php require 'includes/side-nav.php'; ?>
 		</div>
 		<div class="col-9">
-			<div id="example1">
+			<div id="example-1">
 				<h1>Example 1</h1>
 
 				<p>Lorem <a title="Learn more" href="#">to the</a> ipsum</p>
@@ -17,4 +17,4 @@
 	</div>
 </div>
 <?php require '../includes/footer.php'; ?>
-<script src="1.3.3.1.js"></script>
+<script src="app-1.js"></script>

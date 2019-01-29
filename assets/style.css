@@ -1,28 +1,46 @@
-#example1 h1 {
+#example-1 h1 {
   font-size: 400%;
   font-family: sans-serif; }
 
-#example2 h1 {
+#example-2 h1 {
   font-size: 200%;
   font-family: sans-serif; }
 
-#example2 .content {
+#example-2 .content {
   background: #fff;
   border: 1px #ddd solid;
   padding: 20px;
   margin: 20px; }
 
-#example3 h1 {
+#example-3 h1 {
   font-size: 200%;
   font-family: sans-serif; }
 
-#example3 .content {
+#example-3 .content {
   background: #fff;
   border: 1px #ddd solid;
   padding: 20px;
   margin: 20px; }
 
-#example3 #contact {
+#example-3 #contact {
+  background: #efefef;
+  border: 1px #999 dotted;
+  padding: 20px;
+  margin: 20px; }
+
+#example-5 .content {
+  background: #fff;
+  border: 1px #ddd solid;
+  padding: 20px;
+  margin: 20px; }
+
+#example-5 .secret {
+  display: none; }
+
+#example-5 .active {
+  border: 4px #f7b733 solid; }
+
+#example-5 #contact {
   background: #efefef;
   border: 1px #999 dotted;
   padding: 20px;

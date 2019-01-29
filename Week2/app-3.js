@@ -4,7 +4,6 @@
  *
  *******************************/
 
-
 var h1 = document.querySelector( 'h1' ),
     h1ParentEl = h1.parentElement,
     h1ParentNode = h1.parentNode;
@@ -13,7 +12,6 @@ console.log( h1ParentEl );
 console.log( h1ParentNode );
 
 console.log( h1.parentNode.parentNode );
-
 
 
 /********************************
@@ -47,12 +45,6 @@ var content = document.querySelector( '.content' ),
 // console.log( contentFirstChildEl.nodeType );
 //
 // console.log( content.childElementCount );
-
-
-
-
-
-
 
 
 /********************************

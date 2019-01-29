@@ -4,7 +4,7 @@
 		<div class="col-3">
 			<?php require 'includes/side-nav.php'; ?>
 		</div>
-		<div class="col-9" id="example2">
+		<div class="col-9" id="example-2">
 			<h1>Welcome!</h1>
 
   		  <div class="content">
@@ -36,4 +36,4 @@
 	</div>
 </div>
 <?php require '../includes/footer.php'; ?>
-<script src="1.3.3.1.js"></script>
+<script src="app-2.js"></script>

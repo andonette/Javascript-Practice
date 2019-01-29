@@ -132,7 +132,7 @@
 //
 //This is only going to work if the nav and header is disabled
 //as they are links
-var a = document.querySelector( '.tweetme' ),
+var a = document.querySelector( 'a' ),
     aText = a.firstChild;
 
 aText.data = 'Follow me on Twitter';

@@ -23,7 +23,7 @@
 						<p>Culpa nulla cillum do officia elit culpa dolor.</p>
 					</div>
 				</article>
-				<article class="post">
+				<article id="start-here" class="post">
 					<h2 class="entry-title"><a href="#">Eiusmod</a></h2>
 					<div class="entry-content">
 						<p>Cillum ullamco tempor reprehenderit enim.</p>
@@ -40,19 +40,36 @@
 					<div class="entry-content"><p>Sunt aute ut in aliquip.</p></div>
 				</article>
 			</section>
-			<script>
-			// 1. Select the following elements from the page and log them to the <console:></console:>
-			// - All the links on the page,
-			var links = document.getElementsByTagName('a');
-			console.log( links );
-			// - The element with an id of "main,"
-			var main = document.getElementById('main');
-			console.log(main);
-			// - The first element with a class of "featured."
-			var featured = document.getElementsByClassName('featured')[0];
-			console.log(featured);
-			</script>
 
+			<script>
+			// 2. Select the element with an id of "start-here."
+			//This logs out the div with the ID of 'start here'
+			var startHere = document.getElementById('start-here');
+			console.log(startHere)
+			// Then select the syblings of the element,
+
+			// the parent of the element,
+			//The parent element is 'main'
+			var startHereParent = startHere.parentNode;
+			console.log(startHereParent);
+			// the parent of the parent of the element,
+			//This gets my col-9
+			var startHereGrandaddy = startHere.parentNode.parentNode;
+			console.log(startHereGrandaddy);
+			// and the children of the element and save them as variables.
+			//get all the nodes including text
+
+			//my solution
+			var siblings = startHereParent.childNodes;
+			console.log(siblings);
+
+			var startHereKids = startHere.childNodes;
+			console.log(startHereKids);
+
+			var startHereKids = startHere.children;
+			console.log(startHereKids);
+			// Then log them all to the console.
+			</script>
 		</div>
 	</div>
 </div>

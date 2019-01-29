@@ -368,6 +368,20 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/Week3/includes/side-nav.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/Week3/includes/side-nav.php",
+		"oF": 0
+		},
+	"/Week3/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/Week3/index.php",
+		"oF": 0
 		}
 	},
 "hooks": [

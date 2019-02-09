@@ -17,4 +17,6 @@
 	<li class="nav-item"><a class="nav-link" href="exercise-4.php">Exercise 4</a></li>
 	<li class="nav-item"><a class="nav-link" href="exercise-5.php">Exercise 5</a></li>
 	<li class="nav-item"><a class="nav-link" href="exercise-6.php">Exercise 6</a></li>
+	<li class="nav-item"><a class="nav-link" href="exercise-7.php">Exercise 7</a></li>
+
 </ul>

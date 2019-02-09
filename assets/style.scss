@@ -28,58 +28,16 @@
 	}
 
 }
-#example-7 {
-
+form {
+	.content-container {
+		padding: 1rem;
+	}
 	.secret {
 	  display: none;
 	}
 
 	.active {
 	  border: 4px #f7b733 solid;
-	}
-
-	fieldset {
-	  background: #efefef;
-	  border: 1px #999 dotted;
-	  margin-bottom: 10px;
-	}
-
-	legend {
-	  background: #fff;
-	  border: 1px #999 solid;
-	  font-size: 1.4rem;
-	  padding: 10px;
-	}
-
-	abbr {
-	  border-bottom: 1px dotted #222;
-	}
-
-	#main-contact {
-	  text-align: left;
-	  font-size: 1.2rem;
-	}
-
-	#main-contact fieldset {
-
-	}
-
-	#main-contact label {
-	  display: block;
-	  margin: 5px 0;
-	}
-
-	#main-contact input,
-	#main-contact select,
-	#main-contact textarea {
-	  font-size: 1.2rem;
-	  padding: 5px;
-	}
-
-	#main-contact textarea {
-	  width: calc(100% - 10px);
-	  max-width: 40rem;
-	  min-height: 8rem;
 	}
 
 	#main-contact input[type="submit"],

@@ -5,7 +5,7 @@
 			<?php require 'includes/side-nav.php'; ?>
 		</div>
 		<div class="col-9">
-			<h1>Function Values</h1>
+			<h1>Object Methods</h1>
 			<p class="lead">View in console</p>
 
 			<script type="text/javascript">

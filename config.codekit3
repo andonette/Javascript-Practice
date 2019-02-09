@@ -16,6 +16,13 @@
 		"oAP": "/.gitattributes",
 		"oF": 0
 		},
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.gitignore",
+		"oF": 0
+		},
 	"/assets/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -404,6 +411,20 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/Week2/exercise-6.php",
+		"oF": 0
+		},
+	"/Week2/exercise-7.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/Week2/exercise-7.php",
+		"oF": 0
+		},
+	"/Week2/exercise-8.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/Week2/exercise-8.php",
 		"oF": 0
 		},
 	"/Week2/includes/side-nav.php": {

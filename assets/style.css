@@ -1,47 +1,90 @@
-#example-1 h1 {
-  font-size: 400%;
-  font-family: sans-serif; }
-
-#example-2 h1 {
-  font-size: 200%;
-  font-family: sans-serif; }
-
-#example-2 .content {
-  background: #fff;
-  border: 1px #ddd solid;
-  padding: 20px;
-  margin: 20px; }
-
-#example-3 h1 {
-  font-size: 200%;
-  font-family: sans-serif; }
-
-#example-3 .content {
-  background: #fff;
-  border: 1px #ddd solid;
-  padding: 20px;
-  margin: 20px; }
-
 #example-3 #contact {
   background: #efefef;
   border: 1px #999 dotted;
   padding: 20px;
   margin: 20px; }
 
-#example-5 .content {
-  background: #fff;
-  border: 1px #ddd solid;
-  padding: 20px;
-  margin: 20px; }
-
-#example-5 .secret {
+#example-5 .secret, #example-6 .secret {
   display: none; }
 
-#example-5 .active {
+#example-5 .active, #example-6 .active {
   border: 4px #f7b733 solid; }
 
-#example-5 #contact {
+#example-5 #contact, #example-6 #contact {
   background: #efefef;
   border: 1px #999 dotted;
   padding: 20px;
   margin: 20px; }
+
+#example-7 .secret {
+  display: none; }
+
+#example-7 .active {
+  border: 4px #f7b733 solid; }
+
+#example-7 fieldset {
+  background: #efefef;
+  border: 1px #999 dotted;
+  margin-bottom: 10px; }
+
+#example-7 legend {
+  background: #fff;
+  border: 1px #999 solid;
+  font-size: 1.4rem;
+  padding: 10px; }
+
+#example-7 abbr {
+  border-bottom: 1px dotted #222; }
+
+#example-7 #main-contact {
+  text-align: left;
+  font-size: 1.2rem; }
+
+#example-7 #main-contact label {
+  display: block;
+  margin: 5px 0; }
+
+#example-7 #main-contact input,
+#example-7 #main-contact select,
+#example-7 #main-contact textarea {
+  font-size: 1.2rem;
+  padding: 5px; }
+
+#example-7 #main-contact textarea {
+  width: calc(100% - 10px);
+  max-width: 40rem;
+  min-height: 8rem; }
+
+#example-7 #main-contact input[type="submit"],
+#example-7 #main-contact input[type="reset"] {
+  background: green;
+  border: green;
+  color: white;
+  font-size: 1rem;
+  padding: 10px; }
+
+#example-7 #main-contact input[type="reset"] {
+  background: red;
+  border: red; }
+
+#example-7 button.help {
+  background: #fff;
+  border: 1px #ddd solid;
+  padding: 5px;
+  border-radius: 2px; }
+
+#example-7 button.help:hover {
+  cursor: pointer;
+  border-color: #ccc; }
+
+#example-7 .button {
+  background-color: #fff;
+  border: 1px #ddd solid;
+  color: inherit;
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none; }
+
+#example-7 .button:hover {
+  background-color: #f7b733;
+  border-color: #777; }

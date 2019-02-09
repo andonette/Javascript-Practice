@@ -4,7 +4,7 @@
 		<div class="col-3">
 			<?php require 'includes/side-nav.php'; ?>
 		</div>
-		<div class="col-9" id="example-5">
+		<div class="col-9" id="example-6">
 			<h1>Welcome!</h1>
 
 			<div class="content container">

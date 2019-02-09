@@ -26,46 +26,48 @@
 			</section>
 		</body>
 		<script>
-		// // 7. Add an event handler to the form that prevents the default event, removes the form from the page and displays a thank you message with the person's name and email.
-		// // get the element with the Id main
-		// var mainElement = document.getElementById("main");
-		// // get the element with the id signup-form
-		// var signupForm = document.getElementById("signup-form");
-		// // add a submit event listener to the signup form
-		// signupForm.addEventListener("submit", handleSignupFormSubmit);
-		// function handleSignupFormSubmit(event) {
-		//   // prevent the default behavior
-		//   event.preventDefault();
-		//   // get the name from the events target
-		//   var name = event.target.name.value;
-		//   // get the email from the events target
-		//   var email = event.target.email.value;
-		//   // call createSuccessMessage function
-		//   var successMessage = createSuccessMessage(name, email);
-		//   // remove the form from the page
-		//   signupForm.remove();
-		//   // append our success message element to the main element
-		//   mainElement.appendChild(successMessage);
-		//
-		// }
-		// function createSuccessMessage(name, email) {
-		//   // create all our elements
-		//   var successMessage = document.createElement("div");
-		//   var successHeading = document.createElement("h3");
-		//   var message = document.createElement("p");
-		//   // set create Text nodes
-		//   var successHeadingText = document.createTextNode("Thank You!");
-		//   var messageText = document.createTextNode(
-		//     `Thank you ${name}, you signed up with the email address: ${email}.`
-		//   );
-		//   // add the text nodes to their respective elements
-		//   successHeading.appendChild(successHeadingText);
-		//   message.appendChild(messageText);
-		//   // append the elements to the wrapper element
-		//   successMessage.appendChild(successHeading);
-		//   successMessage.appendChild(message);
-		//   return successMessage;
-		// }
+		// 7. Add an event handler to the form that prevents the default event, removes the form from the page and displays a thank you message with the person's name and email.
+		// get the element with the Id main
+		var mainElement = document.getElementById("main");
+
+		// get the element with the id signup-form
+		var signupForm = document.getElementById("signup-form");
+
+		// add a submit event listener to the signup form
+		signupForm.addEventListener("submit", handleSignupFormSubmit);
+		function handleSignupFormSubmit(event) {
+		  // prevent the default behavior
+		  event.preventDefault();
+		  // get the name from the events target
+		  var name = event.target.name.value;
+		  // get the email from the events target
+		  var email = event.target.email.value;
+		  // call createSuccessMessage function
+		  var successMessage = createSuccessMessage(name, email);
+		  // remove the form from the page
+		  signupForm.remove();
+		  // append our success message element to the main element
+		  mainElement.appendChild(successMessage);
+
+		}
+		function createSuccessMessage(name, email) {
+		  // create all our elements
+		  var successMessage = document.createElement("div");
+		  var successHeading = document.createElement("h3");
+		  var message = document.createElement("p");
+		  // set create Text nodes
+		  var successHeadingText = document.createTextNode("Thank You!");
+		  var messageText = document.createTextNode(
+		    `Thank you ${name}, you signed up with the email address: ${email}.`
+		  );
+		  // add the text nodes to their respective elements
+		  successHeading.appendChild(successHeadingText);
+		  message.appendChild(messageText);
+		  // append the elements to the wrapper element
+		  successMessage.appendChild(successHeading);
+		  successMessage.appendChild(message);
+		  return successMessage;
+		}
 		</script>
 	</div>
 </div>

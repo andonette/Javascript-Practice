@@ -83,10 +83,6 @@
 							</div>
 						</div>
 
-
-
-
-
 						</fieldset>
 						<fieldset>
 							<legend>Additional Information</legend>

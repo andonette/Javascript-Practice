@@ -88,3 +88,48 @@
 #example-7 .button:hover {
   background-color: #f7b733;
   border-color: #777; }
+
+#example-8 body {
+  background: #efefef;
+  text-align: center; }
+
+#example-8 h1 {
+  font-size: 200%;
+  font-family: sans-serif; }
+
+#example-8 a {
+  padding: 0 2px; }
+
+#example-8 a:after {
+  content: ' >'; }
+
+#example-8 a:hover {
+  background-color: yellow; }
+
+#example-8 .content {
+  background: #fff;
+  border: 1px #ddd solid;
+  padding: 20px;
+  margin: 20px; }
+
+#example-8 button.help {
+  background: #fff;
+  border: 1px #ddd solid;
+  padding: 5px;
+  border-radius: 2px; }
+
+#example-8 button.help:hover {
+  cursor: pointer;
+  border-color: #ccc; }
+
+#example-8 .button {
+  background-color: #fff;
+  border: 1px #ddd solid;
+  color: inherit;
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none; }
+
+#example-8 .button:hover {
+  background-color: #f7b733;
+  border-color: #777; }

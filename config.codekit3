@@ -288,6 +288,26 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/Week2/app-8-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/Week2/app-8-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/Week2/app-8.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/Week2/app-8-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/Week2/example-1.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -337,6 +357,13 @@
 		"oAP": "/Week2/example-7.php",
 		"oF": 0
 		},
+	"/Week2/example-8.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/Week2/example-8.php",
+		"oF": 0
+		},
 	"/Week2/exercise-1.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -363,6 +390,20 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/Week2/exercise-4.php",
+		"oF": 0
+		},
+	"/Week2/exercise-5.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/Week2/exercise-5.php",
+		"oF": 0
+		},
+	"/Week2/exercise-6.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/Week2/exercise-6.php",
 		"oF": 0
 		},
 	"/Week2/includes/side-nav.php": {

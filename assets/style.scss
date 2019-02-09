@@ -1,7 +1,6 @@
 //Week 2
 #example-3 {
 
-
 	#contact {
 	  background: #efefef;
 	  border: 1px #999 dotted;
@@ -12,7 +11,6 @@
 }
 
 #example-5, #example-6 {
-
 
 	.secret {
 	  display: none;
@@ -96,6 +94,66 @@
 	#main-contact input[type="reset"] {
 	  background: red;
 	  border: red;
+	}
+
+	button.help {
+	  background: #fff;
+	  border: 1px #ddd solid;
+	  padding: 5px;
+	  border-radius: 2px;
+	}
+
+	button.help:hover {
+	  cursor: pointer;
+	  border-color: #ccc;
+	}
+
+	.button {
+	  background-color: #fff;
+	  border: 1px #ddd solid;
+	  color: inherit;;
+	  display: inline-block;
+	  padding: 5px;
+	  text-decoration: none;
+	}
+
+	.button:hover {
+	  background-color: #f7b733;
+	  border-color: #777;
+	}
+
+}
+
+#example-8 {
+	body {
+	  background: #efefef;
+	  text-align: center;
+	}
+
+	h1 {
+	  font-size: 200%;
+	  font-family: sans-serif;
+	}
+
+	a {
+	  padding: 0 2px;
+	}
+
+	a:after {
+	  content: ' >';
+	}
+
+
+	a:hover {
+	  background-color: yellow;
+	}
+
+
+	.content {
+	  background: #fff;
+	  border: 1px #ddd solid;
+	  padding: 20px;
+	  margin: 20px;
 	}
 
 	button.help {
